@@ -1,2 +1,6 @@
 # 502_Group_Project
-Aditya checked in
+Aditya Saude
+Savankumar Pethani
+Vidhisha Amle
+Charu Sneha
+
