@@ -1,5 +1,5 @@
 # 502_Group_Project
-Aditya Saude
+Aditya Soude (asoude)
 Savankumar Pethani
 Vidhisha Amle
 Charu Sneha
