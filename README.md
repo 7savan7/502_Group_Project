@@ -1,6 +1,6 @@
 # 502_Group_Project
-Aditya Soude (asoude)
-Savankumar Pethani
-Vidhisha Amle
-Charu Sneha
+Aditya Soude (asoude),
+Savankumar Pethani,
+Vidhisha Amle,
+Charu Sneha.
 
