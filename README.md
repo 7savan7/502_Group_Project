@@ -2,7 +2,7 @@
 
 ## Lexar Programming Language
 
-### Group 7
+### Group 32
 
 ### Team Members: 
 * Aditya Soude (ASU ID-)
