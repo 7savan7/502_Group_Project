@@ -1,3 +1,29 @@
+SER 502 Contribution - Team 32
+
+Team Members:
+
+1. Aditya Soude (ASU ID- 1233364979)
+2. Savankumar Pethani (ASU ID- 1233436310)
+3. Vidhisha Amle (ASU ID- 1233138272)
+4. Charu Sneha (ASU ID-1233592505)
+
+Milestone 1:
+
+The entire team collaborated equally on setting up the private GitHub repository, and drafting the initial project plan. We worked together on creating the README.md, including the language description, supported systems, and tools to be used.
+
+Milestone 2: 
+
+Proposed Plan: 
+
+1. Aditya Soude- Implementation of parser
+2. Savankumar Pethani -  Grammar design
+3. Vidhisha Amle - Implementation of lexical analyzer
+4. Charu Sneha - Runtime execution and testing of sample programs
+
 Savankumar Pethani
-1) created the whole grammar with team.
-2) decided on its major design and grammar rules
+1) Created the whole grammar with team.
+2) Decided on its major design and grammar rules.
+
+Vidhisha Amle
+1) Designed and implementated the lexical analyzer using PLY with the team.
+2) Defined token rules, reserved keywords, and handled pattern matching for identifiers, literals, and operators.
