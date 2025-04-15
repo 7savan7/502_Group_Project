@@ -1,73 +1,80 @@
+## Sample output for now
+
+![image](https://github.com/user-attachments/assets/6e6cd65c-2636-4187-91f0-5019db29f29a)
+
 # SER502: Group Project
 
-## Lexar Programming Language
+# BolBachchan Language
 
-### Group 32
+BolBachchan is a creative, humorous programming language that blends Hindi-English keywords with traditional programming constructs. Designed to be fun and expressive, it is backed by a custom lexer and parser written in Python using PLY (Python Lex-Yacc).
 
-### Team Members:
+## 🎯 Project Purpose
 
-- Aditya Soude (ASU ID- 1233364979)
-- Savankumar Pethani (ASU ID- 1233436310)
-- Vidhisha Amle (ASU ID- 1233138272)
-- Charu Sneha (ASU ID-1233592505)
+To design and implement a custom programming language from scratch that supports standard programming features while incorporating Hinglish (Hindi-English) syntax.
 
-## Description:
+## 🚀 Features
 
-QuirkScript is a playful, creatively designed programming language that embraces humor and simplicity while maintaining the ability to perform essential programming tasks. Featuring unconventional syntax, quirky keywords, and a fun approach to code execution, QuirkScript makes programming an entertaining experience.
+- 🧮 Primitive types: int, bool, string
+- 🔢 Arithmetic operators: jodo (+), ghatao (-), guna (\*), bhaag (/)
+- 🔍 Relational operators: badaHai (>), chhotaHai (<), barabarHai (==)
+- 🔁 Loops: baarBaar (for), jabTak (while)
+- ❓ Conditionals: agar-toh-nahiToh (if-then-else), ternary (? :)
+- 📢 Output: bolBhai() prints any data type
+- 🪄 Assignments: rakho keyword assigns values to variables
+- 😎 Logical operators: & (and), | (or)
 
-## Supporting Platform:
+## 📁 Project Structure
 
-Windows and Mac
+```
+SER502_QuirkScript_Team32/
+├── src/
+│   ├── lexer.py            # Tokenizer
+│   ├── parser.py           # Parser with AST support
+│   ├── main.py             # Entry point for execution
+├── data/
+│   └── Sample3.bb          # Test case covering all language constraints
+├── doc/
+│   ├── grammar.pdf         # Formal grammar in EBNF
+│   └── contribution.txt    # Team contributions and plan
+├── README.md               # Project overview and instructions
+├── requirements.txt        # Python dependencies
+```
 
-### Purpose
+## ⚙️ Setup Instructions
 
-QuirkScript aims to make programming feel less intimidating and more enjoyable. Whether you're a beginner or an experienced coder, this language will challenge conventions while keeping things amusing.
+1. Install dependencies:
 
-### Features
+```bash
+pip install -r requirements.txt
+```
 
-- **Quirky Data Types & Operators**
-  - `yep` and `nope` for Boolean values, supporting `meh`, `uh-huh`, and `no-way` as logical operators.
-  - Numeric types (`num`, `big-num`) supporting operations like `plus`, `minus`, `times`, and `divide-by`.
-  - Relational operators (`way-bigger`, `way-smaller`, `same-same`).
-  - String assignments with `say = "Hello!"`.
-- **Assignment & Control Flow**
-  - Variable assignment using `lemme =`.
-  - Conditional constructs:
-    - Ternary operator (`if-yes : do-this ? otherwise-do-this`).
-    - Traditional `if-maybe-else` structure.
-- **Looping Constructs**
-  - `keep-doing` loop (while loop variant).
-  - `loopity-loop` (for loop variant).
-- **Printing Output**
-  - `shout()` construct for displaying values of all supported types.
-- **Development Tools**
-  - Built with open-source tools such as `cmake`, `make`, `ant`, or `qmake`.
-  - No proprietary tools are required for compilation and execution.
-- **Command-line Execution**
-  - The interpreter or compiler is invoked via the command-line using a single argument, e.g.:
-    ```sh
-    ./obj/quirkscript Data/HelloWorld.qs
-    ```
-    or (if written in Java):
-    ```sh
-    java -cp classes quirk.Main HelloWorld.qs
-    ```
+2. Run the parser and view the parse tree:
 
-## Required Tools
+```bash
+python src/main.py data/Sample3.bb
+```
 
-To build and run QuirkScript, you need the following tools:
+## 🧪 Testing Language Constraints
 
-- **Compiler/Interpreter Development:**
-  - C++ or Java (for lexer, parser, and runtime implementation)
-  - Flex & Bison (for lexical analysis and parsing in C++)
-  - ANTLR (for parsing if implemented in Java)
-- **Build System:**
-  - CMake, Make, Ant, or QMake (to manage builds and dependencies)
-- **Version Control:**
-  - Git and GitHub (for collaboration and source code management)
-- **Testing Frameworks:**
-  - Google Test (for C++) or JUnit (for Java) to validate language behavior
-- **Text Editor/IDE:**
-  - VS Code, CLion, IntelliJ IDEA, or any preferred development environment
-- **Command-Line Interface:**
-  - Terminal, PowerShell, or Command Prompt for executing QuirkScript programs
+Sample3.bb includes:
+
+- All data types: int, bool, string
+- Arithmetic, logical, and relational operators
+- Ternary and if-else constructs
+- for-loop and while-loop support
+- Printing outputs with bolBhai
+
+## 📄 Documentation
+
+- Formal grammar: `doc/grammar.pdf`
+- Team work log: `doc/contribution.txt`
+
+## 💻 Tools Used
+
+- Python 3.9+
+- PLY (Python Lex-Yacc)
+- Git/GitHub
+
+---
+
+Created with ❤️ by Team 32
