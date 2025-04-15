@@ -1,0 +1,66 @@
+Grammer (EBNF)
+program         = { statement } ;
+
+statement       = declaration
+                | assignment
+                | print
+                | ifStatement
+                | loop
+                | expression ";" ;
+
+declaration     = datatype identifier ";" ;
+
+assignment      = "rakho" identifier "=" expression ";" ;
+
+datatype        = "int" | "bool" | "string" ;
+
+print           = "bolBhai" "(" expression ")" ";" ;
+
+ifStatement     = "agar" "(" condition ")" "toh" "{" { statement } "}"
+                [ "nahiToh" "{" { statement } "}" ] ;
+
+loop            = forLoop | whileLoop ;
+
+forLoop         = "baarBaar" "(" assignment condition ";" expression ")" "{" { statement } "}" ;
+
+whileLoop       = "jabTak" "(" condition ")" "{" { statement } "}" ;
+
+expression      = ternary
+                | logical_expr ;
+
+ternary         = logical_expr "?" expression ":" expression ;
+
+logical_expr    = relational_expr { logical_op relational_expr } ;
+
+relational_expr = arith_expr [ relationalOp arith_expr ] ;
+
+arith_expr      = term { ("jodo" | "ghatao") term } ;
+
+term            = factor { ("guna" | "bhaag") factor } ;
+
+factor          = number
+                | string
+                | boolean_op
+                | identifier
+                | identifier increment_op
+                | "(" expression ")" ;
+
+condition       = expression ;
+
+relationalOp    = "badaHai" | "chhotaHai" | "barabarHai" ;
+
+logical_op      = "&" | "|" ;
+
+boolean_op      = "true" | "false" ;
+
+increment_op    = "++" | "--" ;
+
+identifier      = letter { letter | digit } ;
+
+number          = digit { digit } ;
+
+string          = '"' { character } '"' ;
+
+letter          = 'a'..'z' | 'A'..'Z' ;
+digit           = '0'..'9' ;
+character       = letter | digit | ' ' | ',' | '.' ;

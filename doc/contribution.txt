@@ -1,0 +1,3 @@
+Savankumar Pethani
+1) Worked on the initial draft of Grammer 
+2) Decided all the rules and syntax required for the grammer.
