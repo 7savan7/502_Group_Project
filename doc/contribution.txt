@@ -27,7 +27,3 @@ Savankumar Pethani
 Vidhisha Amle
 1) Designed and implementated the lexical analyzer using PLY with the team.
 2) Defined token rules, reserved keywords, and handled pattern matching for identifiers, literals, and operators.
-
-Aditya Deepak Soude
-1) Contributed creating grammar.
-2) Designed a parser that can take tokens from lexer and accomadate all apropriated grammar rules.
