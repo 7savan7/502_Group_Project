@@ -44,9 +44,6 @@ To design and implement a custom programming language from scratch that supports
 ## Sample 3
 ![WhatsApp Image 2025-04-15 at 17 34 58_6faf0fb8](https://github.com/user-attachments/assets/7996c4b9-d24a-4db7-86f8-4fbd1be8281e)
 
-
-
-
 ## Documentation
 
 - Formal grammar: `doc/grammar.pdf`
@@ -57,7 +54,8 @@ To design and implement a custom programming language from scratch that supports
 - Python 3.9+
 - PLY (Python Lex-Yacc)
 - Git/GitHub
-
+### Note
+- This lanugage does not support comments yet. 
 ---
 
 Created with ❤️ by Team 32
