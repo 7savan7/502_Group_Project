@@ -27,7 +27,12 @@ To design and implement a custom programming language from scratch that supports
 - Logical operators: & (and), | (or)
 
 ## Build and Run Instructions
+### Install required Python packages
+- pip install -r requirements.txt
 
+### Run program
+- python src/main.py data/Sample1.bb
+- This will output a complete parse tree of the input program to the terminal for Sample1.bb
 
 
 ## Documentation

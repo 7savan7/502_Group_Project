@@ -31,3 +31,7 @@ Vidhisha Amle
 Aditya Deepak Soude
 1) Contributed creating grammar.
 2) Designed a parser that can take tokens from lexer and accomadate all apropriated grammar rules.
+
+Charu Sneha Laguduva Ravi
+1) Implemented the main parser entry point, enabled parse tree generation, and created a comprehensive sample input to validate all language features with the team.
+2) Assisted in designing and implementing the lexical analyzer.
