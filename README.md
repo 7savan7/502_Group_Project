@@ -34,6 +34,18 @@ To design and implement a custom programming language from scratch that supports
 - python src/main.py data/Sample1.bb
 - This will output a complete parse tree of the input program to the terminal for Sample1.bb
 
+### Sample Output 
+## Sample 1
+![WhatsApp Image 2025-04-15 at 17 34 39_e70ea96f](https://github.com/user-attachments/assets/c91f293c-3c6c-453f-a0ef-d47416800b77)
+
+## Sample 2
+![WhatsApp Image 2025-04-15 at 17 34 42_7f235ecb](https://github.com/user-attachments/assets/cb6aa36e-d4fd-4d82-b41d-d94302cc4dab)
+
+## Sample 3
+![WhatsApp Image 2025-04-15 at 17 34 58_6faf0fb8](https://github.com/user-attachments/assets/7996c4b9-d24a-4db7-86f8-4fbd1be8281e)
+
+
+
 
 ## Documentation
 
