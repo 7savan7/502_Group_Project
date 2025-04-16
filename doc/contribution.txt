@@ -9,7 +9,8 @@ Team Members:
 
 Milestone 1:
 
-The entire team collaborated equally on setting up the private GitHub repository, and drafting the initial project plan. We worked together on creating the README.md, including the language description, supported systems, and tools to be used.
+The entire team collaborated equally on setting up the private GitHub repository, and drafting the initial project plan. We worked together on creating the README.md, including the language description, supported systems,
+and tools to be used.
 
 Milestone 2: 
 
