@@ -1,6 +1,7 @@
 # src/main.py
 import sys
 from parser import parser
+from interpreter import Interpreter
 
 def print_parse_tree(data):
     def traverse_tree(node, level=0):
@@ -22,3 +23,8 @@ if __name__ == '__main__':
         data = f.read()
         print("Parse Tree:")
         print_parse_tree(data)
+
+        print("\nExecution Result:")
+        result = parser.parse(data)
+        interpreter = Interpreter()
+        interpreter.eval(result)
