@@ -25,6 +25,7 @@ To design and implement a custom programming language from scratch that supports
 - Output: bolBhai() prints any data type
 - Assignments: rakho keyword assigns values to variables
 - Logical operators: & (and), | (or)
+- Define custom function: function func_name and wapis to return.
 
 ## Build and Run Instructions
 ### Install required Python packages
