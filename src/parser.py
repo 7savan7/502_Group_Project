@@ -23,7 +23,7 @@ def p_statement_list(p):
         elif p[2] is None:
             p[0] = p[1]
         else:
-            # Hoist all function_def nodes to the front, preserving order
+            
             p0 = p[1] + [p[2]]
             func_defs = [s for s in p0 if isinstance(s, tuple) and s[0] == 'function_def']
             non_funcs = [s for s in p0 if not (isinstance(s, tuple) and s[0] == 'function_def')]
@@ -36,7 +36,7 @@ def p_statement_list(p):
     else:
         p[0] = []
 
-# Allow function definitions as top-level statements
+
 def p_statement_declaration(p):
     'statement : TYPE ID SEMI'
     p[0] = ('declare', p[1], p[2])
@@ -148,8 +148,6 @@ def p_parameter_list(p):
         else:
             p[0] = [p[1]]
 
-# Function call as expression
-
 def p_function_call(p):
     'expression : ID LPAREN argument_list RPAREN'
     p[0] = ('function_call', p[1], p[3])
@@ -165,8 +163,6 @@ def p_argument_list(p):
             p[0] = []
         else:
             p[0] = [p[1]]
-
-# Return statement
 
 def p_statement_return(p):
     'statement : RETURN expression SEMI'
