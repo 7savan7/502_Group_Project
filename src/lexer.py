@@ -14,7 +14,6 @@ tokens = [
     'FUNCTION', 'RETURN', 'COMMA'
 ]
 
-# The dictionary maps the reserved Hindi words to their corresponding token names. 
 reserved = {
     'rakho': 'ASSIGN',
     'bolBhai': 'PRINT',
@@ -39,8 +38,6 @@ reserved = {
     'wapis': 'RETURN'
 }
 
-# Arithmetic operators , relational operators, boolean operators, increment/decrement operators
-# and logical operators are defined using regex patterns. 
 t_QMARK   = r'\?'
 t_COLON   = r':'
 t_AND     = r'&'
@@ -55,23 +52,17 @@ t_LBRACE  = r'\{'
 t_RBRACE  = r'\}'
 t_COMMA   = r','
 
-# STRING rule:
-# Matches double-quoted strings, excluding newlines.
-# The value is stored without the enclosing quotes.
 def t_STRING(t):
     r'"[^"\n]*"'
     t.value = t.value[1:-1]  
     return t
 
-# NUMBER rule: 
-# Matches integers.
-# The value is converted to an integer. 
+
 def t_NUMBER(t):
     r'\d+'
     t.value = int(t.value)
     return t
 
-# Enhanced ID rule to block reserved keywords as identifiers
 reserved_keywords = set([
     'rakho', 'bolBhai', 'agar', 'toh', 'nahiToh', 'jabTak', 'baarBaar',
     'int', 'bool', 'string', 'true', 'false', 'badaHai', 'chhotaHai', 'barabarHai',
@@ -88,17 +79,14 @@ def t_ID(t):
         t.type = 'INVALID_ID'
     return t
 
-# Whitespace and newline handler:
-# Ignores whitespace characters (spaces, tabs, carriage returns).
+
 t_ignore = ' \t\r'
 
-# Increments the line number for each newline character.
+
 def t_newline(t):
     r'\n+'
     t.lexer.lineno += len(t.value)
 
-# Error handler:
-# Prints an error message for illegal characters and skips them.
 def t_error(t):
     print(f"Illegal character: '{t.value[0]}'")
     t.lexer.skip(1)
