@@ -59,7 +59,7 @@ To design and implement a custom programming language from scratch that supports
 
 ## Tools Used
 
-- Python 3.9+
+- Python 3.11+
 - PLY (Python Lex-Yacc)
 - Git/GitHub
 ### Note
