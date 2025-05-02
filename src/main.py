@@ -1,4 +1,4 @@
-# src/main.py
+
 import sys
 from parser import parser
 from interpreter import Interpreter
