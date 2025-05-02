@@ -45,6 +45,13 @@ To design and implement a custom programming language from scratch that supports
 ## Sample 3
 ![WhatsApp Image 2025-04-15 at 17 34 58_6faf0fb8](https://github.com/user-attachments/assets/7996c4b9-d24a-4db7-86f8-4fbd1be8281e)
 
+## Sample 4
+![image](https://github.com/user-attachments/assets/39e81819-c496-4efb-92cd-6b84973235be)
+
+## Sample 5
+![WhatsApp Image 2025-05-01 at 23 10 55_908a698e](https://github.com/user-attachments/assets/11d5926c-3521-49d5-87d5-ed8ce60106d6)
+
+
 ## Documentation
 
 - Formal grammar: `doc/grammar.pdf`
