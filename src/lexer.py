@@ -1,10 +1,5 @@
 import ply.lex as lex
 
-# List of token names includes:
-# operators (arithmetic, relational, boolean, increment, logical),
-# delimiters (parentheses, braces, semicolon), keywords (print, assign),
-# and types (int, bool, string).
-
 tokens = [
     'ID', 'NUMBER', 'STRING',
     'PLUS', 'MINUS', 'TIMES', 'DIVIDE',
