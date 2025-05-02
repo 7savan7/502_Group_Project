@@ -107,7 +107,6 @@ class Interpreter:
                     self.eval(stmt)
                 self.eval(post_stmt)
 
-        # --- Function support additions ---
         elif node_type == 'function_def':
             _, func_name, params, body = node
             self.functions[func_name] = (params, body)
