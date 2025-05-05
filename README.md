@@ -7,6 +7,9 @@ BolBachchan is a creative, humorous programming language that blends Hindi-Engli
 ## Youtube Link
 https://youtu.be/Eu3Vn_AxoQg
 
+## Github Link
+https://github.com/7savan7/SER502_BolBachan_Team32
+
 ## Team Members
 
 - Aditya Soude (ASU ID- 1233364979)
@@ -62,6 +65,7 @@ To design and implement a custom programming language from scratch that supports
 
 ## Tools Used
 
+- System used Windows: 10 and 11
 - Python 3.11+
 - PLY (Python Lex-Yacc)
 - Git/GitHub
