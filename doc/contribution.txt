@@ -54,3 +54,7 @@ Aditya Deepak Soud
 Charu Sneha Laguduva Ravi
 1) Helped develop interpreter.py from planning to implementation. Modified connected files to maintain consistency.
 2) Performed end-to-end testing with original sample inputs to confirm correct behavior across components.
+
+Milestone 4:
+
+The entire team collaborated equally in creating the project presentation. All group members were present during the final project demonstration.
